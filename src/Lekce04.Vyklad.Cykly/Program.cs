@@ -38,7 +38,7 @@ string vstupUzivateleText = Console.ReadLine();
 int vekUzivatele;
 bool povedloSePrevest = int.TryParse(vstupUzivateleText, out vekUzivatele);
 
-while(/*nepovedloSePrevest*/)
+while (!povedloSePrevest) // ekvivaletne povedloSePrevest == false
 {
- // donut uzivatele zadat vek znovu.
+    // donut uzivatele zadat vek znovu.
 }
