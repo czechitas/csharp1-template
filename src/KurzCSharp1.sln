@@ -43,6 +43,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce05.Vyklad.MetodyZaklad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce05.Vyklad.MetodyPokrocile", "Lekce05.Vyklad.MetodyPokrocile\Lekce05.Vyklad.MetodyPokrocile.csproj", "{27A2C348-4F62-4BF7-AEA1-7447C3F5A006}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce06.Opakovani", "Lekce06.Opakovani\Lekce06.Opakovani.csproj", "{CA27555C-0377-4509-97A6-E5F7B454E78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce06.BreakoutRoom1.Metody", "Lekce06.BreakoutRoom1.Metody\Lekce06.BreakoutRoom1.Metody.csproj", "{8C2B2393-B53F-4CC2-8146-AFB44E1C4314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce06.OOP.Vyklad", "Lekce06.OOP.Vyklad\Lekce06.OOP.Vyklad.csproj", "{DB92CA18-BBD8-4429-AAF6-A03F9A638F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce06.BreakoutRoom2", "Lekce06.BreakoutRoom2\Lekce06.BreakoutRoom2.csproj", "{17628D66-D246-4151-AB9E-2A247B4CF64C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +137,22 @@ Global
 		{27A2C348-4F62-4BF7-AEA1-7447C3F5A006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27A2C348-4F62-4BF7-AEA1-7447C3F5A006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A2C348-4F62-4BF7-AEA1-7447C3F5A006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA27555C-0377-4509-97A6-E5F7B454E78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA27555C-0377-4509-97A6-E5F7B454E78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA27555C-0377-4509-97A6-E5F7B454E78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA27555C-0377-4509-97A6-E5F7B454E78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2B2393-B53F-4CC2-8146-AFB44E1C4314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2B2393-B53F-4CC2-8146-AFB44E1C4314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2B2393-B53F-4CC2-8146-AFB44E1C4314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2B2393-B53F-4CC2-8146-AFB44E1C4314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB92CA18-BBD8-4429-AAF6-A03F9A638F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB92CA18-BBD8-4429-AAF6-A03F9A638F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB92CA18-BBD8-4429-AAF6-A03F9A638F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB92CA18-BBD8-4429-AAF6-A03F9A638F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17628D66-D246-4151-AB9E-2A247B4CF64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17628D66-D246-4151-AB9E-2A247B4CF64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17628D66-D246-4151-AB9E-2A247B4CF64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17628D66-D246-4151-AB9E-2A247B4CF64C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
