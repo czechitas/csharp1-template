@@ -1,0 +1,52 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<h1>@pozdrav</h1>
+
+<p>Moje oblíbená dovolená je @dovolena</p>
+
+<button @onclick="@(() => HandleMouseClick("Hory"))">Hory</button>
+<button @onclick="@(() => HandleMouseClick("More"))">Moře</button>
+
+<p>Aktuální čas je @DateTime.Now</p>
+
+@code {
+    private string dovolena = "Neznámá";
+    private string pozdrav = "Ahoj, Blazore!";
+
+    private void HandleMouseClick(string text)
+    {
+        dovolena = text;
+    }
+}
+
+<h3>Seznam položek</h3>
+
+<ul>
+    @foreach (var polozka in seznam)
+    {
+        <li>@polozka</li>
+    }
+</ul>
+
+<input @onchange="ZmenHodnotuInputu" placeholder="Nová položka" />
+<button @onclick="PridejPolozku">Přidat</button>
+
+@code {
+    private List<string> seznam = new() { "Jablko", "Banán", "Hruška" };
+    private string novaPolozka = "";
+
+    private void ZmenHodnotuInputu(ChangeEventArgs e)
+    {
+        novaPolozka = e.Value?.ToString() ?? "";
+    }
+
+    private void PridejPolozku()
+    {
+        if (!string.IsNullOrWhiteSpace(novaPolozka))
+        {
+            seznam.Add(novaPolozka);
+            novaPolozka = "";
+        }
+    }
+}

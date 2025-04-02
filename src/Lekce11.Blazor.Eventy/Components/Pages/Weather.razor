@@ -1,0 +1,47 @@
+﻿@page "/weather"
+@rendermode InteractiveServer
+
+<h3>Vyber si své oblíbené zvířátko:</h3>
+
+<select @onchange="(eventParameters) => ZpracujVyber(eventParameters)">
+    <option value="">-- Zvol zvíře --</option>
+    <option value="pes">Pes</option>
+    <option value="kocka">Kočka</option>
+    <option value="krava">Kráva</option>
+    <option value="kure">Kuře</option>
+</select>
+
+@if (!string.IsNullOrEmpty(zvuk))
+{
+    <p style="font-size: 3rem;">
+        <strong>@zvuk</strong>
+    </p>
+}
+
+@code {
+    private string zvuk = "";
+
+    private void ZpracujVyber(ChangeEventArgs eventArgs)
+    {
+        string vybraneZviratko = eventArgs.Value?.ToString() ?? "";
+
+        switch (vybraneZviratko)
+        {
+            case "pes":
+                zvuk = "🐶 Haf haf!";
+                break;
+            case "kocka":
+                zvuk = "🐱 Mňau!";
+                break;
+            case "krava":
+                zvuk = "🐮 Bůů!";
+                break;
+            case "kure":
+                zvuk = "🐥 Píp píp!";
+                break;
+            default:
+                zvuk = "";
+                break;
+        }
+    }
+}

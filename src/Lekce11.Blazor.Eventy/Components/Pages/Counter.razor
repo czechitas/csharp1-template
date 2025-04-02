@@ -1,0 +1,41 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<h3>Hra: Pohyb kolečka pomocí šipek</h3>
+<p>Klikni na hrací pole pro start.</p>
+
+<div tabindex="0" @onkeydown="ZpracujKlavesu"
+    style="width: 400px; height: 400px; border: 2px solid black; position: relative;">
+
+    <div
+        style=@($"width:30px;height:30px;background-color:green;border-radius:50%;position:absolute;left:{poziceX}px;top:{poziceY}px;transition:0.05s")>
+    </div>
+</div>
+
+<p>Pozice kolečka: X = @poziceX, Y = @poziceY</p>
+
+@code {
+    private int poziceX = 0;
+    private int poziceY = 0;
+
+    const int krok = 10;
+
+    private void ZpracujKlavesu(KeyboardEventArgs e)
+    {
+        switch (e.Key)
+        {
+            case "ArrowUp":
+                poziceY = Math.Max(0, poziceY - krok);
+                break;
+            case "ArrowDown":
+                poziceY = Math.Min(370, poziceY + krok);
+                break;
+            case "ArrowLeft":
+                poziceX = Math.Max(0, poziceX - krok);
+                break;
+            case "ArrowRight":
+                poziceX = Math.Min(370, poziceX + krok);
+                break;
+        }
+    }
+}

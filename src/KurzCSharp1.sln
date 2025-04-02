@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce09.Breakoutroom2", "Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce09.Opakovani", "Lekce09.Opakovani\Lekce09.Opakovani.csproj", "{8FA3F415-E216-442F-B866-FDFEA6F670A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce11.Blazor.Eventy", "Lekce11.Blazor.Eventy\Lekce11.Blazor.Eventy.csproj", "{A8BA3687-53C9-4D0C-BA52-5523AB81D665}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{8FA3F415-E216-442F-B866-FDFEA6F670A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA3F415-E216-442F-B866-FDFEA6F670A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA3F415-E216-442F-B866-FDFEA6F670A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
