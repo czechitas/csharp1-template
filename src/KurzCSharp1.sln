@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce09.Opakovani", "Lekce0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce11.Blazor.Eventy", "Lekce11.Blazor.Eventy\Lekce11.Blazor.Eventy.csproj", "{A8BA3687-53C9-4D0C-BA52-5523AB81D665}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorHelloWorld2", "BlazorHelloWorld2\BlazorHelloWorld2.csproj", "{A99B10CF-45EA-4A42-8FF8-464C21F69720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekce12.Vyklad.Pole", "Lekce12.Vyklad.Pole\Lekce12.Vyklad.Pole.csproj", "{6D3067D9-4CCB-404F-A103-B27EE84031ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,14 @@ Global
 		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BA3687-53C9-4D0C-BA52-5523AB81D665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99B10CF-45EA-4A42-8FF8-464C21F69720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99B10CF-45EA-4A42-8FF8-464C21F69720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99B10CF-45EA-4A42-8FF8-464C21F69720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99B10CF-45EA-4A42-8FF8-464C21F69720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3067D9-4CCB-404F-A103-B27EE84031ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3067D9-4CCB-404F-A103-B27EE84031ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3067D9-4CCB-404F-A103-B27EE84031ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3067D9-4CCB-404F-A103-B27EE84031ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

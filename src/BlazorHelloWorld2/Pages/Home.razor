@@ -1,0 +1,35 @@
+﻿@page "/"
+
+<PageTitle>Landing Page</PageTitle>
+
+<h1>@pozdrav</h1>
+<p>Vítej ve světe GUI. Aktuálně je @DateTime.Now hodin.</p>
+
+@if (!schovanyText)
+{
+    <p>Toto je muj tajny text.</p>
+}
+else
+{
+    <p>Toto je muj verejny text.</p>
+}
+
+<button @onclick="@(() => OdkryjNeboZakryjText())">Odkryj Text</button>
+
+<p>Kliknul jsi: @aktualniHodnotaPocitadla x</p>
+<button @onclick="@(() => PrictiKPocitadluJednicku())">Pricti k pocitadlu jednicku.</button>
+
+@code
+{
+    private string pozdrav = "Ahoj, Czechitas C#1!";
+    private bool schovanyText = true;
+    private int aktualniHodnotaPocitadla = 0;
+    public void OdkryjNeboZakryjText()
+    {
+        schovanyText = !schovanyText;
+    }
+    public void PrictiKPocitadluJednicku()
+    {
+        aktualniHodnotaPocitadla++; // aktualniHodnotaPocitadla = aktualniHodnotaPocitadla + 1;
+    }
+}
